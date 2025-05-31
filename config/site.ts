@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Title of your site",
+  description: "Description of your site.",
   navItems: [
     {
       label: "Home",
@@ -24,39 +24,43 @@ export const siteConfig = {
       label: "About",
       href: "/about",
     },
+    {
+      label: "News",
+      href: "/news",
+    },
+    {
+      label: "To Do List",
+      href: "/to-do-list",
+    },
+    {
+      label: "className and Flexbox Test",
+      href: "/tailwind-styling-test",
+    },
+    {
+      label: "Skyline Petting Zoo",
+      href: "/skyline-petting-zoo",
+    },
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Home",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Docs",
+      href: "/docs",
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "Pricing",
+      href: "/pricing",
     },
     {
-      label: "Team",
-      href: "/team",
+      label: "Blog",
+      href: "/blog",
     },
     {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
+      label: "About",
+      href: "/about",
     },
   ],
   links: {
